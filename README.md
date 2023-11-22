@@ -23,4 +23,4 @@ This set of configs facilitate listening to every game sounds available in Count
 - The list of all the sounds with their index is available at "...\cfg\sound_player\sound_list.cfg".
 - If you want to reset default mousebinds, type resetmouse in console.
 - The only file you should ever modify (if you know what you're doing) : "...\cfg\sound_player\sound_player.cfg", otherwise you will probably break the script !
-- I recommend restarting the game after using this script to avoid any lags, sinces it loads up almost 40k aliases into your game !
+- I recommend restarting the game after using this script to avoid any lags, sinces it loads up almost 40k aliases !

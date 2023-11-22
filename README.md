@@ -14,7 +14,7 @@ This set of configs facilitate listening to every game sounds available in Count
 
 
 # Usage
-- type "exec sound_player\sound_player.cfg" to load the config into the game.
+- type in the console "exec sound_player\sound_player.cfg" to load the config into the game.
 - play_sound is the main command to use.
 - play_sound_skip is the same but it cuts off the previous sound.
 - stopsound will cut off any sound currently played.

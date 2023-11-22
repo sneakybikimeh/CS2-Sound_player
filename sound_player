@@ -1,0 +1,41 @@
+//Sound_loader initiate
+exec "sound_player/sound_loader_master"
+echo "Sounds loaded"
+
+//Debug initiate
+exec "sound_player/sound_debugger_master"
+echo "Debugger loaded"
+
+//playsound_(i) cursor initiate
+alias "play_sound" "playsound_00001"
+//bind "MOUSE1" "play_sound"
+
+//Same as playsound_(i) but it cuts previous sound
+alias "play_sound_skip" "stopsound; play_sound"
+//bind "MOUSE1" "play_sound_skip"
+
+//Binding
+bind "MOUSE1" "play_sound_skip"
+bind "MOUSE2" "stopsound"
+
+//Reset Binding
+alias "resetmouse" "bind mouse1 +attack; bind mouse2 +attack2"
+
+echo 
+echo 
+echo "*********************************************";
+echo "SOUND_PLAYER loaded succesfully ! :)"
+echo "*********************************************";
+echo 
+echo "Usage : bind [key] play_sound"
+echo "[play_sound] is the main command to use"
+echo 
+echo "Everytime you use the keybind, it will play the current sound in stack, then store the next one in memory"
+echo "If you want to skip to a specific sound, type playsound_[number] into the console, the keybind play_sound will keep it in memory"
+echo 
+echo "The list of all the sounds with their index is available at sound_player/sound_list.cfg"
+echo 
+echo "Press MOUSE1 to cycle through the sounds"
+echo "Press MOUSE2 to stop the current sounds from being played"
+echo 
+echo "(If you want to reset default mousebinds, type resetmouse in console)"

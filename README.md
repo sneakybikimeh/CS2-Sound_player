@@ -4,13 +4,13 @@ This set of configs facilitate listening to every game sounds available in Count
 
 # Installation
 1. Open the archive and extract its content into the following path folder :
-\...\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\sound_player\
+"\...\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\sound_player\"
 
 2. Launch the game, boot up a practice server where you can turn on sv_cheats 1 and type in the console the following command: "exec sound_player\sound_player.cfg".
    
 3. Your console should display a message saying : "SOUND_PLAYER loaded succesfully ! :)"; otherwise you must have a path issue and the file did not load correctly.
 
-4. Close the console and press MOUSE1 to start cycling between the sounds, press MOUSE2 to stop it.
+4. Close the console and press MOUSE1 to start cycling between the sounds, press MOUSE2 to stop any sound played.
 
 
 # Usage

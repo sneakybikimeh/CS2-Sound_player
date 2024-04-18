@@ -7,7 +7,7 @@ This set of configs facilitate listening to every game sounds available in Count
 
          \...\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\sound_player\
 
-2. Launch the game, boot up a practice server where you can turn on sv_cheats 1 and type in the console the following command :
+2. Launch the game, boot up a practice server where you can turn on `sv_cheats 1` and type in the console the following command :
 
          exec sound_player\sound_player.cfg
    

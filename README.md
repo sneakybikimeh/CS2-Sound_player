@@ -9,7 +9,7 @@ This set of configs facilitate listening to every game sounds available in Count
 
 2. Launch the game, boot up a practice server where you can turn on sv_cheats 1 and type in the console the following command :
 
-                  exec sound_player\sound_player.cfg
+         exec sound_player\sound_player.cfg
    
 3. Your console should display a message saying : "SOUND_PLAYER loaded succesfully ! :)"; otherwise you must have a path issue and the file did not load correctly.
 
